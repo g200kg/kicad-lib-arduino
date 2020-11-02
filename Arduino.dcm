@@ -1,0 +1,33 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP Arduino_Micro
+D Arduino Micro
+K Arduino micro microcontroller module USB
+F https://store.arduino.cc/usa/arduino-micro
+$ENDCMP
+#
+$CMP Arduino_Nano
+D Arduino Nano
+K Arduino nano microcontroller module USB
+F https://store.arduino.cc/usa/arduino-nano
+$ENDCMP
+#
+$CMP Arduino_Nano_Every
+D Arduino Nano Every
+K Arduino nano every microcontroller module USB
+F https://store.arduino.cc/usa/nano-every
+$ENDCMP
+#
+$CMP Arduino_Pro_Mini
+D Arduino Pro Mini
+K Arduino pro mini microcontroller module
+F https://www.sparkfun.com/products/11113
+$ENDCMP
+#
+$CMP Sparkfun_Pro_Micro
+D Sparkfun Pro Micro
+K Arduino Sparkfun pro micro microcontroller module USB
+F https://www.sparkfun.com/products/12640
+$ENDCMP
+#
+#End Doc Library
