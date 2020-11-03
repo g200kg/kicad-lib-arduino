@@ -1,5 +1,5 @@
-(module Arduino_Micro (layer F.Cu) (tedit 5F9F3880)
-  (descr "Arduino Micro, https://store.arduino.cc/usa/arduino-micro")
+(module Arduino_Micro (layer F.Cu) (tedit 5FA0E988)
+  (descr "Arduino Micro")
   (tags "Arduino Micro")
   (fp_text reference REF** (at 7.62 -5.08) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
@@ -75,6 +75,11 @@
   (pad 33 thru_hole oval (at 15.24 2.54) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask))
   (pad 34 thru_hole oval (at 15.24 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask))
   (model ${KISYS3DMOD}/Module.3dshapes/Arduino_Nano_WithMountingHoles.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+  (model ${LOCALREPO}/kicad-lib-arduino/Arduino.3dshapes/arduino_micro.x3d
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

@@ -1,6 +1,6 @@
-(module Sparkfun_Pro_Micro (layer F.Cu) (tedit 5FA030E0)
-  (descr "Arduino Nano, http://www.mouser.com/pdfdocs/Gravitech_Arduino_Nano3_0.pdf")
-  (tags "Arduino Nano")
+(module Sparkfun_Pro_Micro (layer F.Cu) (tedit 5FA0EA1E)
+  (descr "Sparkfun Pro Micro")
+  (tags "Arduino Sparkfun Pro Micro")
   (fp_text reference REF** (at 7.62 -5.08) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -64,6 +64,11 @@
   (pad 23 thru_hole oval (at 15.24 2.54) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask))
   (pad 24 thru_hole oval (at 15.24 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask))
   (model ${KISYS3DMOD}/Module.3dshapes/Arduino_Nano_WithMountingHoles.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+  (model ${LOCALREPO}/kicad-lib-arduino/Arduino.3dshapes/sparkfun_pro_micro.x3d
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

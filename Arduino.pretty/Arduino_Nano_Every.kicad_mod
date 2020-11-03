@@ -1,6 +1,6 @@
-(module Arduino_Nano_Every (layer F.Cu) (tedit 5F980EE7)
-  (descr "Arduino Nano, http://www.mouser.com/pdfdocs/Gravitech_Arduino_Nano3_0.pdf")
-  (tags "Arduino Nano")
+(module Arduino_Nano_Every (layer F.Cu) (tedit 5FA0E9AA)
+  (descr "Arduino Nano Every")
+  (tags "Arduino Nano Every")
   (fp_text reference REF** (at 7.62 -5.08) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -71,6 +71,11 @@
   (pad 15 thru_hole oval (at 0 35.56) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask))
   (pad 16 thru_hole oval (at 15.24 35.56) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask))
   (model ${KISYS3DMOD}/Module.3dshapes/Arduino_Nano_WithMountingHoles.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+  (model ${LOCALREPO}/kicad-lib-arduino/Arduino.3dshapes/arduino_nano_every.x3d
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
