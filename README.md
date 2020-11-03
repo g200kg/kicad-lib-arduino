@@ -11,6 +11,14 @@ Include :
 > Arduino Pro Mini  
 > Sparkfun Pro Micro  
 
+## Files
+
+| File                     | Description
+|--------------------------|-------
+| Arduino.dcm, Arduino.lib | Symbol library  
+| Arduino.pretty           | Footprints  
+| Arduino.3dshapes         | 3D models  
+
 ### Symbol
 ![](images/arduino_symbol.png)  
 
@@ -19,15 +27,6 @@ Include :
 
 ### 3D Model
 ![](images/arduino_3d.png)  
-
-
-## Files
-
-| File                     | Description
-|--------------------------|-------
-| Arduino.dcm, Arduino.lib | Symbol library  
-| Arduino.pretty           | Footprints  
-| Arduino.3dshapes         | 3D models  
 
 ## License
 Licensed under Creative Commons CC0
